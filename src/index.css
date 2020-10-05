@@ -1,0 +1,19 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
